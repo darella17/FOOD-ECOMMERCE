@@ -11,12 +11,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
   <title>Menu</title>
 </head>
 <body class=" m-0 p-0 min-h-screen ">
   <div class="w-full bg-[#FFF2E2]">
     <section class="max-w-7xl mx-auto py-[20px] md:py-[50px] px-4 sm:px-8 md:px-[20px] relative">
-      <nav class="flex justify-between">
+      <nav class="flex justify-between ">
  <p class="text-5xl font-black Nunito text-orange-500 ">
    Mollis.Eats
  </p>
@@ -37,7 +40,7 @@
 </svg>
 </div>
 <div class="pt-[-30px]">
-  <button class="flex gap-1 bg-orange-500 py-[15px] px-[15px] text-center rounded-3xl hover:cursor-pointer hover:opacity-80">
+  <button class="flex gap-1 bg-orange-500 py-[15px] px-[15px] text-center rounded-3xl hover:cursor-pointer hover:opacity-80 ">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
 </svg>
@@ -47,23 +50,27 @@ Order </button>
 
  </nav>
 
- <div>
+ <div class="sticky top-0 z-50 bg-[#FFF2E2]/90 backdrop-blur-md py-4 px-8">
   <p class="text-center mt-[30px] font-bold Fredoka text-[30px] text-orange-500">MENU</p>
   <ul class="flex gap-11 justify-start mt-[30px] text-[25px] Nunito hover:cursor-pointer">
-    <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
-   hover:text-orange-500 "><a href="#pizza"></a>Pizza </li>
+    <a href="#pizza">
+      <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
+   hover:text-orange-500 Fredoka">Pizza </li>
+    </a>
     <!-- <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
     "><a href=""></a>Rice </li> -->
+   <a href="#mainmeal">
+     <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
+    hover:text-orange-500 Fredoka">Main meals </li>
+   </a>
+    <a href="#burger"><li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
+    hover:text-orange-500 Fredoka">Burger </li></a>
+   <a href="#Friedchicken"> <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
+    hover:text-orange-500 Fredoka">Fried chicken </li></a>
+    <a href="#Fries"><li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
+    hover:text-orange-500 Fredoka">Fries</li></a>
     <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
-    "><a href=""></a>Main meals </li>
-    <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
-    "><a href=""></a>Burger </li>
-    <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
-    "><a href=""></a>Fried chicken </li>
-    <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
-    "><a href=""></a>Fries</li>
-    <li class="hover:bg-white hover:border-none hover:py-4 hover:px-4 hover:rounded-2xl hover:font-bold
-    "><a href=""></a>Beverages </li>
+    hover:text-orange-500 Fredoka"><a href=""></a>Beverages </li>
     <!-- <li><a href=""></a>Pizza </li> -->
   </ul>
  </div>
@@ -210,6 +217,343 @@ Order </button>
 </div>
 </div>
  </div>
+ <!-- main meal section  -->
+ <div id="mainmeal">
+  <p class="Fredoka text-[35px] font-bold text-[#642a03] mt-[80px]">Main meals</p>
+  <!-- first line -->
+   <div class="flex gap-15 ml-[60px]">
+    <!-- first meal -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/jollof_rice-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Jollof rice </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- second meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/fried_rice-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">shrimp Fried rice </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- third meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Biryani_rice-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Biryani</span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- fourth meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Native_rice-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Native rice </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+   </div>
+   <!-- second line  -->
+   <p class="mt-[50px] text-[45px] font-thin text-[#642a03] Italianno">Pasta</p>
+   <div class="flex gap-15 ml-[60px]">
+    <!-- first meal -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Spaghetti_Bolognese-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Spaghetti Bolognese </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- second meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/chicken_Alfredo_pasta-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">chicken Alfredo pasta</span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- third meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Penne_Arrabbiata_pasta-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Penne pasta</span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- fourth meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Lasagna_pasta-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Lasagna pasta </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+   </div>
+   <!-- third line  -->
+    <div class="flex gap-15 ml-[60px]">
+      <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Pesto_Pasta-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Pesto pasta </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+    </div>
+ </div>
+ <!-- burger section  -->
+  <div id="burger" class="">
+    <p class="Fredoka text-[35px] font-bold text-[#642a03] mt-[80px]">Burgers</p>
+    <div class="flex gap-15 ml-[60px]">
+    <!-- first meal -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Classic_Beef_Burger-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Classic Beef Burger </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- second meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Bacon_Burger-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Bacon Burger</span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- third meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Chicken_Burger-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Chicken Burger</span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- fourth meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Veggie_Burger-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Veggie Burger </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+   </div>
+   <!-- third line  -->
+    <div class="flex gap-15 ml-[60px]">
+      <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/BBQ_Burger-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">BBQ Burger </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- fifth  -->
+ <div class="flex gap-15 ml-[60px]">
+      <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Double_Decker_Burger-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Double decker Burger </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+    </div>
+    </div>
+ </div>
+  </div>
+  <!-- chicken section  -->
+  <div id="Friedchicken" class="">
+    <p class="Fredoka text-[35px] font-bold text-[#642a03] mt-[80px]">Fried chicken</p>
+    <div class="flex gap-15 ml-[60px]">
+    <!-- first meal -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Classic_Southern_Fried_Chicken-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Southern fried chicken </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- second meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/korean_Fried_Chicken-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Korean fried chicken</span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- third meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Garlic_Parmesan_Fried_Chicken-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Garlic Parmesan Fried Chicken</span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- fourth meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/grilled_chicken-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Grilled chicken </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+   </div>
+   <!-- third line  -->
+    <div class="flex gap-15 ml-[60px]">
+      <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Nashville_Hot_Chicken-removebg-preview (1).png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Nashville hot chicken </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- fifth  -->
+    </div>
+ </div>
+ <!-- fries section  -->
+  <div id="Fries" class="">
+    <p class="Fredoka text-[35px] font-bold text-[#642a03] mt-[80px]">Fries</p>
+    <div class="flex gap-15 ml-[60px]">
+    <!-- first meal -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Classic_French_Fries-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Classic french fries </span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- second meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Loaded_Fries-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Loaded fries</span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+<!-- third meal  -->
+ <div class=" flex flex-col gap-4 transition-all duration-300 hover:scale-110"  >
+  <div class=" ">
+    <button class="flex flex-col items-center gap-2 min-w-[110px] ">
+    <div class="mt-[60px] w-58 h-58 bg-[#FFF2E2] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 hover:scale-110 ">
+      <img src="images/Sweet_Potato_Fries-removebg-preview.png" alt="Burger" class="object-contain" />
+    </div>
+    <span class="text-s font-bold text-stone-700">Sweet Potato fries</span>
+</div>
+<div>
+  <button class="ml-[80px] px-5 py-3 bg-orange-500 rounded-xl font-black text-white Nunito">Add</button>
+</div>
+</div>
+  </div>
     </section>
   </div>
 </body>
